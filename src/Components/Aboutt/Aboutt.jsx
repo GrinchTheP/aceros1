@@ -10,7 +10,7 @@ const Aboutt = () => {
             
             <div className="aboutt-right">
                 <div className="aboutt-para">
-                    <h2>Nos especializamos en la fabricación de aceros de alto rendimiento, impulsados por un equipo comprometido que garantiza excelencia y precisión en cada proceso.</h2>
+                    <h2>NNos especializamos en la fabricación de aceros de alto rendimiento, impulsados por un equipo comprometido que garantiza excelencia y precisión en cada proceso.</h2>
                     <p>Transformamos el acero en soluciones duraderas y de calidad, adaptadas a las necesidades específicas de cada proyecto.</p>
                 </div>
                 <div className="aboutt-skills">
