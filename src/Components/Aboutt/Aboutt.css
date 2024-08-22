@@ -1,0 +1,154 @@
+.aboutt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.aboutt-title{
+    position: relative;
+}
+
+.aboutt-title h1{
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.aboutt-sections{
+    display: flex;
+    gap: 80px;
+}
+
+.aboutt-right{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.aboutt-para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.aboutt-para h2{
+    font-size: 25px;
+}
+
+.aboutt-para p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.aboutt-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aboutt-left img {
+    border-radius: 25px;
+}
+
+.aboutt-skill{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.aboutt-skill p{
+    min-width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.aboutt-skill hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+}
+
+.aboutt-achievements{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.aboutt-achievement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.aboutt-achievement h1{
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #067381 50.41%, #000000 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutt-achievement p {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.aboutt-skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.aboutt-achievement:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+}
+
+/* media queri */
+
+
+@media (max-width: 800px){
+    
+    .aboutt-sections{
+        flex-direction: column;
+    }
+
+    .aboutt-para h2{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .aboutt-para p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .aboutt-left{
+        display: none;
+    }
+
+    .aboutt-achievements{
+        justify-content: space-between;
+    }
+    .aboutt-achievement{
+        gap: 10px;
+    }
+    .aboutt-achievement h1{
+        font-size: 40px;
+    }
+    .aboutt-achievement p{
+        font-size: 13px;
+        text-align: center;
+    }
+}
